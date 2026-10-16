@@ -14,8 +14,8 @@ This is a complete playable vertical slice, not a production multiplayer service
 
 ## Links to fill
 
-- Source code: `[GitHub repository URL]`
-- Repository access: private; invite `chris-trag`, `knmeiss`, `giolaq`, `anishamalde`, `mosesroth`, and `emersonsklar` as collaborators, as specified in the [official rules](https://amazonappdev2026.devpost.com/rules).
+- Source code: [public GitHub repository](https://github.com/FedericaRoti/Weave)
+- Repository license: MIT
 - Demo video, public on YouTube or Vimeo and under 3 minutes: `[video URL]`
 - Primary track: Fire TV
 - Mini-challenges: None unless separately qualified

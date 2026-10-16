@@ -14,7 +14,7 @@ Aggiornata il 16 ottobre 2026. La [scadenza ufficiale](https://amazonappdev2026.
 
 1. **Prova visiva sul Vega Virtual Device.** Controllare nella finestra del simulatore che la WebView mostri entrambe le scene e che frecce/Seleziona raggiungano e attivino i controlli. La sola installazione/visibilità del processo non dimostra questo punto. Correggere eventuali problemi di layout/focus.
 2. **Video reale, massimo 2:59.** Registrare la finestra del simulatore mentre Weave funziona, con due postazioni e il companion. Aggiungere narrazione o sottotitoli inglesi e caricarlo pubblicamente su YouTube/Vimeo. Non usare soltanto il browser desktop nel video: le [regole Fire TV](https://amazonappdev2026.devpost.com/rules) richiedono device o simulatore.
-3. **Repository accessibile ai giudici.** Scelta confermata: GitHub privato, condiviso con gli account indicati dalle [regole](https://amazonappdev2026.devpost.com/rules): `chris-trag`, `knmeiss`, `giolaq`, `anishamalde`, `mosesroth`, `emersonsklar`. Git locale è stato inizializzato, ma non ci sono ancora commit né repository remoto. Includere codice, asset e setup in inglese.
+3. **Repository accessibile ai giudici.** Repository [GitHub pubblica](https://github.com/FedericaRoti/Weave) con licenza MIT; branch `main` caricato e README in inglese con istruzioni browser, Vega e AI locale.
 4. **Submission Devpost.** Compilare descrizione, link repo/video, track Fire TV e feedback sugli strumenti. La submission finale comporta accettazione delle regole; va verificata con l'utente prima dell'invio.
 
 ## Dopo il gate, solo se resta tempo
