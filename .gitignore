@@ -1,0 +1,11 @@
+node_modules/
+.codex/
+tv/node_modules/
+tv/build/
+tv/dist/
+tv/buildinfo.json
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
