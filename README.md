@@ -32,6 +32,15 @@ Open `http://localhost:4173/?screen=1998` and `http://localhost:4173/?screen=203
 
 For the optional local AI narrator, start the server with `WEAVE_NARRATOR=ollama npm start`. The companion labels a response “AI locale” only when the local model actually supplied valid fact IDs; otherwise it labels the rules fallback. Questions and game facts are sent to `127.0.0.1:11434`, not to AWS or another cloud service.
 
+To enable it, install [Ollama](https://ollama.com/download), make sure its local server is running, and download the model once:
+
+```sh
+ollama pull qwen3:4b-instruct-2507-q4_K_M
+WEAVE_NARRATOR=ollama npm start
+```
+
+The model download is about 2.5 GB. On macOS, launching the Ollama app starts its local server; on other setups, start it with `ollama serve` in a separate terminal. If Ollama or the model is unavailable, Weave uses the deterministic rules narrator and the game remains playable. No API key or cloud account is needed.
+
 ## Run the Vega OS app in the simulator
 
 1. Start the Node server from the repository root in one terminal and leave it running.
